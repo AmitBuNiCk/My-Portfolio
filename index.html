@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amit - Developer Protfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- ---Header Html Code--- -->
+    <header>
+      <nav>
+        <div class="left">Amit's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="about.html" target="_blank">About</a></li>
+            <li><a href="projects.html" target="_blank">Projects</a></li>
+            <li><a href="contact.html" target="_blank">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ---Main Section Code--- -->
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          <div>Hi, My name is <span class="text-purple">Amit</span></div>
+          <div>and I am a passionate</div>
+
+          <span id="element"></span>
+          <div class="buttons">
+            <a href="https://drive.google.com/drive/folders/1fIa4J2iuYk_VkHdx00fph7C-r-k1TJXm" target="_blank"><button class="btn">Download Resume</button></a>
+            <a href="https://github.com/AmitBuNiCk?tab=repositories" target="_blank"><button class="btn">Visit Github</button></a>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="images/bg.png" alt="Background Image" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">What I Have Done So Far</span>
+        <h1>Education Qualification</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="images/Developer.png" alt="Main section Developer_image" />
+            <div class="vertical-title">Secondary Education (2016)</div>
+            <div class="vertical-desc">
+                I completed my secondary education from class VI to class X at Ispat Nagari Meghnad Saha Madhyamik Vidyalaya. I successfully finished my Madhyamik exam in 2016, marking an important milestone.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="images/Developer.png" alt="" />
+            <div class="vertical-title">HigherSecondary Education (2018)</div>
+            <div class="vertical-desc">
+                I completed my secondary education from class VI to class XII at Ispat Nagari Meghnad Saha Madhyamik Vidyalaya. I successfully finished my 12th grade exam in the science stream in 2018.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="images/Developer.png" alt="" />
+            <div class="vertical-title">Diploma Engineering (2018-2021)</div>
+            <div class="vertical-desc">
+                I successfully completed my Diploma in Engineering in Electronics & Telecommunication from M.B.C Institute of Engineering & Technology,Purba Bardhaman,West Bengal, achieving a strong academic record between 2018 and 2021, with a focus on practical and theoretical knowledge.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="images/Developer.png" alt="" />
+            <div class="vertical-title">B.Tech Engineering (2021-2024)</div>
+            <div class="vertical-desc">
+                I successfully completed my Bachelor Of Technology Engineering in Electronics & Communication from the Institute of Engineering & Management, Kolkata, West Bengal, achieving a strong academic record between 2021 and 2024, with a focus on both practical and theoretical knowledge.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="images/Developer.png" alt="" />
+            <div class="vertical-title">Fullstack WebDeveloper (Ongoing)</div>
+            <div class="vertical-desc">
+              I am currently enrolled in a Full Stack Web Development course at Vidyastu, where I am learning both frontend and backend technologies to build dynamic and responsive web applications.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <!-- ---Footer Section Code--- -->
+
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Amit's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <p>Contact: ghoshamit291@gmail.com</p>
+        </div>
+        <div class="footer-third">
+          <p>Follow me:</p>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/amit-ghosh-830106285/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/AmitBuNiCk?tab=repositories" target="_blank">GitHub</a></li>
+            <li><a href="#">Twitter</a></li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <p>&copy; 2025 Amit. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Web Designer", "Video Editor"],
+        typeSpeed: 50,
+      });
+    </script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
